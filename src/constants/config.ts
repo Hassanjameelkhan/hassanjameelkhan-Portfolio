@@ -67,11 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm Hassan Jamil Khan a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm Hassan Jamil Khan, a highly skilled software developer specializing in advanced e-commerce architectures and custom web solutions. With 1.5 years of extensive Shopify expertise and 2 years of WordPress experience, I build scalable, high-converting digital storefronts. My Shopify proficiency spans across advanced Liquid programming, complex B2B implementations, Klaviyo marketing integrations, Billbee for seamless tax automation, and custom Shopify Flow workflows. On the WordPress front, I excel in bespoke theme development and pixel-perfect Elementor designs. Backed by a robust core stack of HTML, CSS, Tailwind, JavaScript, jQuery and TypeScript. I collaborate closely with clients to engineer user-friendly solutions that drive real business growth. Let's work together to bring your vision to life!"`,
     },
     experience: {
       p: "What I have done so far",

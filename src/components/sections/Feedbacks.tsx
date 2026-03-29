@@ -47,15 +47,11 @@ const FeedbackCard: React.FC<{ index: number } & TTestimonial> = ({
 const Feedbacks = () => {
   return (
     <div className="bg-black-100 mt-12 rounded-[20px]">
-      <div
-        className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl`}
-      >
+      <div className={`${styles.padding} bg-tertiary min-h-[300px] rounded-2xl flex flex-col items-center justify-center text-center`}>     
         <Header useMotion={true} {...config.sections.feedbacks} />
-      </div>
-      <div
-        className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 max-sm:justify-center`}
-      >
-        {testimonials.map((testimonial, index) => (
+         </div>
+        <div className={`${styles.paddingX} -mt-20 flex flex-wrap gap-7 pb-14 justify-center items-center w-full`}>
+          {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>

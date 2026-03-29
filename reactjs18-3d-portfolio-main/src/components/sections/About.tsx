@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 
-import profileImg from "../../assets/mine.jpg"; 
+import profileImg from "../../assets/mine2.png"; 
 import { motion } from "framer-motion";
 
 import { services } from "../../constants";
